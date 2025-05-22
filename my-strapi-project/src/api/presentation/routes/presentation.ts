@@ -13,6 +13,6 @@ export default {
       method: 'GET',
       path: '/presentation',
       handler: 'presentation.findOne',
-    },
+    }
   ],
 };
