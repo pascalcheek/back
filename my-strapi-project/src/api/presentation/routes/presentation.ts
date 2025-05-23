@@ -13,6 +13,11 @@ export default {
       method: 'GET',
       path: '/presentation',
       handler: 'presentation.findOne',
+    },
+    {
+      method: 'GET',
+      path: '/presentations/tags',
+      handler: 'presentation.findByTags',
     }
   ],
 };
